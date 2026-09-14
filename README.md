@@ -35,7 +35,7 @@ Ignite (`pins/tools.sh`) installs it next to `graphifyy`:
 
 ```sh
 uv tool install --with git+https://github.com/pleware/graphify-postpass.git@v0.1.0 \
-  "graphifyy[ollama,sql]"
+  "graphifyy[openai,sql]"
 ```
 
 Or, in an environment that already has Graphify:
